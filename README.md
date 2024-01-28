@@ -1,6 +1,7 @@
 # ⚙️ CommitTracker
 This web server listens for incoming GitHub webhook payloads triggered by repository events. When a commit, issue or an PR is pushed, the server processes the payload and sends an embed message to a Discord channel using a webhook.
-
+<br>
+In the payloads/ folder you will find the default payloads samples that are being sent to your webhook by GitHub.
 # Setup
 ```sh
 git clone https://github.com/nwvh/CommitTracker/
